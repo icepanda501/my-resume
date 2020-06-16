@@ -1,0 +1,12 @@
+.skill1{
+    grid-area: skill1;
+}
+
+.skill2{
+    grid-area: skill2;
+}
+
+.skill-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}

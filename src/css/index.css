@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+html {
+    -webkit-print-color-adjust: exact;
+}
+
+body{
+    width: 21cm;
+    height: 29.7cm;
+    font-family: "roboto", sans-serif;
+    overflow: hidden;
+    /* change the margins as you want them to be. */
+}

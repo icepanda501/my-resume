@@ -1,0 +1,38 @@
+.main-detail{
+    grid-area: main-detail;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    "image detail"
+    "name detail"
+    "title detail"
+}
+
+.image{
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    grid-area: image;
+}
+
+.name{
+    justify-self: center;
+    padding: 0px 10px;
+    grid-area: name;
+}
+
+.title{
+    justify-self: center;
+    padding: 0px 10px;
+    grid-area: title;
+}
+
+.detail{
+    justify-self: center;
+    padding: 10px 10px;
+    grid-area: detail;
+}

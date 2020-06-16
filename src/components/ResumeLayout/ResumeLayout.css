@@ -1,0 +1,15 @@
+.resume-layout{
+    border: 1px solid #1C1F35 ;
+    background-color: #FFF;
+    color: #1C1F35;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "main-detail main-detail"
+    "job1 job2"
+    "job3 job4"
+    "skill1 skill2";
+    grid-gap: 10px;
+    padding: 30px;
+    font-size: 14px;
+}

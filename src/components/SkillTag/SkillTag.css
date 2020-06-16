@@ -1,0 +1,9 @@
+.skill-tag{
+    display: inline;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-right: 5px;
+    background-color: #002F9B;
+    color: #FFF;
+    white-space: nowrap;
+}
