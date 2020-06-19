@@ -1,0 +1,6 @@
+.contact-card{
+    grid-area: contact-card;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}

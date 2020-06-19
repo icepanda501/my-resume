@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card'
+import ContactCard from '../ContactCard'
 
 import myImage from '../../images/my.png'
 
@@ -12,6 +13,7 @@ const MainDetail = ({ title, name, image, detail}) => {
         <div className="title">{title}</div>
         <div className="name">{name}</div>
         <div className="detail">{detail}</div>
+        <ContactCard />
     </Card>
     )
 }

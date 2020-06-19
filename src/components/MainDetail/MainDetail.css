@@ -5,7 +5,8 @@
     grid-template-areas: 
     "image detail"
     "name detail"
-    "title detail"
+    "title contact-card"
+    ". contact-card";
 }
 
 .image{
